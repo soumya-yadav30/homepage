@@ -1,0 +1,167 @@
+body {
+  background-color: #2F1893;
+  margin-right: 120px;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 50px;
+  margin-left: 190px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  padding: 0;
+  overflow: hidden;
+  
+  font-family: "DM Sans", sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 9px 16px;
+  text-decoration: none;
+}
+
+/* Style for the "Contact" link */
+.purchase {
+  background-color:#E93A7D;
+  border-radius: 150px;
+  ; /* Background color for the "Contact" link */
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: right;
+  width: 400px;
+height: 450px;
+top: 184px;
+left: 715px;
+margin-right: 66px;
+border: 2px solid #6f6e72d6;
+background-color: #fff;
+
+}
+
+.text {
+  float:left;
+  width: 400px;
+height: 450px;
+top: 200px;
+left: 209px;
+margin-left: 160px;
+margin-top: 0;
+
+}
+
+.form-text {
+
+font-family: "DM Sans",sans-serif;
+font-size: 35px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: -0.4000000059604645px;
+text-align: center;
+color: #1E0E62;
+
+}
+
+/* Style for the form container */
+.form {
+  text-align: center;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+/* Style for the input container */
+.input-container {
+  margin: 10px 30px; /* Add space between input elements vertically */
+  border-radius: 50px;
+
+}
+
+/* Style for the input elements */
+.form input[type="text"] {
+  padding: 10px; /* Add padding to the text input fields */
+  border: 1px solid #ccc; /* Add a border with some space around the input */
+  width: 100%; /* Make the inputs full-width */
+  box-sizing: border-box; /* Include padding and border within the input width */
+  border-radius: 50px;
+
+   
+font-family: "DM Sans",sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+/* Style for the submit button */
+.form input[type="submit"] {
+  background-color: #2F1893;
+  color: #fff;
+  padding: 10px;
+  width: 87%;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px; /* Add space between the inputs and the submit button */
+  margin-left: 30px;
+  margin-left: 10px;
+}
+
+.input-container input[type="checkbox"]:checked + label::before {
+  border-color: red;
+  background-color: red;
+}
+
+.input-container input[type="checkbox"]:checked + label::before {
+  border-color: red;
+  background-color: red;
+}
+.container signin {
+  text-align: center;
+}
+
+.divider {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.divider::before, .divider::after {
+  flex: 1;
+  content: '';
+  padding: 1px;
+  background-color: rgb(212, 208, 208);
+  ;
+  margin: 5px;
+}
+
